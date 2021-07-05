@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from sqlalchemy import create_engine
 from fractions import Fraction
 import pandas as pd
@@ -708,7 +707,4 @@ cond.to_sql(name='condition', con=engine, schema='monsters', if_exists='replace'
 imm.to_sql(name='immunity', con=engine, schema='monsters', if_exists='replace', index=False)
 res.to_sql(name='resistance', con=engine, schema='monsters', if_exists='replace', index=False)
 stats.to_sql(name='stats', con=engine, schema='monsters', if_exists='replace', index=False)
-            
-        
->>>>>>> c3ba50651ae962bd77cab733eff5e7c8b805e848
     
